@@ -1,0 +1,19 @@
+{
+  "description": "A REST engine for resourceful.",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "resourceful-base-engine": "git://github.com/markbirbeck/resourceful-base-engine.git#v0.0.1",
+    "request": "~2.22.0"
+  },
+  "devDependencies": {
+    "resourceful": "~0.3.3",
+    "mocha": "~1.12.0",
+    "should": "~1.2.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "name": "resourceful-rest",
+  "author": "Mark Birbeck"
+}
