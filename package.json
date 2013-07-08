@@ -1,6 +1,6 @@
 {
   "description": "A REST engine for resourceful.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "dependencies": {
     "resourceful-base-engine": "git://github.com/markbirbeck/resourceful-base-engine.git#v0.0.2",
