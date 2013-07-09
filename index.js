@@ -77,6 +77,30 @@ Rest.prototype.request = function(method, id, doc, callback){
     }
     break;
 
+  case 'patch':
+    url = this.uri + id;
+    if (this.patchSuffix !== ''){
+      url += this.patchSuffix;
+      method = 'put';
+    }
+    if (this.connection){
+      return this.connection({'method': method, 'url': url, 'json': doc},
+          function (err, res, body){
+        if (err){
+          throw new Error(err);
+        } else if (res.statusCode !== 200 && res.statusCode !== 201){
+          callback(new Error('Failed to patch: ' + url + ' [' +
+            res.statusCode + ']'));
+        } else {
+          callback(null, body);
+        }
+      });
+    } else {
+      err = new Error('No patch method.');
+      body = { status: 500 };
+    }
+    break;
+
   case 'put':
     url = this.uri + id;
     if (this.connection){
