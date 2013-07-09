@@ -3,7 +3,7 @@
   "version": "0.0.2",
   "private": true,
   "dependencies": {
-    "resourceful-base-engine": "git://github.com/markbirbeck/resourceful-base-engine.git#v0.0.2",
+    "resourceful-base-engine": "git://github.com/markbirbeck/resourceful-base-engine.git#v0.1.1",
     "request": "~2.22.0"
   },
   "devDependencies": {
