@@ -84,7 +84,7 @@ Rest.prototype.request = function(method, id, doc, callback){
         if (err){
           throw new Error(err);
         } else if (res.statusCode !== 201){
-          err = new Error('Failed to put ' + url + ' [' + res.statusCode + ']');
+          callback(new Error('Failed to put: ' + url + ' [' + res.statusCode + ']'));
         } else {
           callback(err, body);
         }
