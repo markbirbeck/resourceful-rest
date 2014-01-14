@@ -2,7 +2,7 @@
 
 REST engine for resourceful.
 
-Uses [resourceful-base-engine](https://github.com/markbirbeck/resourceful-rest) to try to do as much of the work as possible.
+Uses [resourceful-base-engine](https://github.com/markbirbeck/resourceful-base-engine) to try to do as much of the work as possible.
 
 ## Credits
 
