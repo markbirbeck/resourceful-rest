@@ -2,7 +2,7 @@
 
 REST engine for resourceful.
 
-Uses [resourceful-base-engine](https://github.com/markbirbeck/resourceful-rest) to try to do as much of the work as possible.
+Uses [resourceful-base-engine](https://github.com/markbirbeck/resourceful-base-engine) to try to do as much of the work as possible.
 
 ## Credits
 
@@ -12,7 +12,7 @@ Uses the [request](https://npmjs.org/package/request) module.
 
 ## License
 
-Copyright 2013 Mark Birbeck
+Copyright 2013-2014 Mark Birbeck
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
