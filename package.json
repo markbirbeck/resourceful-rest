@@ -1,6 +1,6 @@
 {
   "description": "A REST engine for resourceful.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "dependencies": {
     "resourceful-base-engine": "0.1.3",
