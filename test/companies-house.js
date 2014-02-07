@@ -8,7 +8,7 @@ var should = require('should');
 
 var resourceful = require('resourceful');
 
-require('..').init(resourceful);
+require('../lib/resourceful-rest').init(resourceful);
 
 describe('Companies House', function(){
   var companiesHouse;
