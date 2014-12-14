@@ -21,12 +21,12 @@
     "test": "NODE_ENV=test mocha"
   },
   "dependencies": {
-    "resourceful-base-engine": "~0.2.2",
-    "request": "~2.22.0"
+    "resourceful-base-engine": "0.4.0",
+    "request": "2.51.0"
   },
   "devDependencies": {
-    "resourceful": "~0.3.3",
-    "mocha": "~1.12.1",
-    "should": "~3.1.2"
+    "resourceful": "0.3.4",
+    "mocha": "2.0.1",
+    "should": "4.4.1"
   }
 }
